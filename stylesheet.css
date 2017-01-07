@@ -1,42 +1,96 @@
-h1 { 
-		 font-family: 'Lobster', cursive;
-		 font-size: 60px;
-		 text-align: center;
-		 color: #ffd82a;
-		 
+.navbar-default .navbar-nav>.active>a {
+
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
 }
 
-body { 
-	
-		background-color: #f2f2f2;
-		
+.navbar-default .navbar-nav>li>a {
 
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
 }
-ul {
-		margin: auto;
-        list-style-type: none;	
-        font-family: 'Lobster', cursive;
-		font-size:20px;
+
+#content h1 {
+
+		font-family: 'Dancing Script', cursive;
+		font-size: 100px;
 		text-align: center;
-		color: #ffd82a;
-		
-		
-
-
+		color: white;
+		text-shadow: 1px 1px 2px black;
+		padding-top: 150px;
 }
 
-li { 
-		display: inline; 
-		padding: 60px;
-}
-
-h3 { 	margin-left: 50px;
-		color: #666;
- }
-
-p {	
+#content h3 {
+		font-family: 'Roboto', sans-serif;
+		font-size: 20px;
 		text-align: center;
-		color: #666;
-		margin-left: 50px;
-		margin-right: 50px
+		color: white;
+		text-shadow: 1px 1px 2px black;
+		padding-top: 50px;
+		padding-bottom: 50px;
+
 }
+
+#aboutmeheader h1 {
+
+		font-family: 'Dancing Script', cursive;
+		font-size: 100px;
+		text-align: center;
+		color: black;
+		text-shadow: 1px 1px 2px white;
+		padding-top: 50px;
+}
+
+hr {	
+		width: 650px;
+		border-top: 1px solid #f8f8f8;
+		border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+body {
+
+	background-color: white;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+
+}
+
+.jumbotron {
+	background:url(http://i.imgur.com/8QXgKMmh.jpg);
+	background-position: center;
+	background-size: cover;
+	background height: 500px;
+	margin-top: -50px;
+	height: 600px;
+
+}
+
+.row {
+		margin-bottom: 50px;
+		display: center;
+}
+
+#social ul li {
+		display: inline;
+		padding: 20px;
+		text-align: center;
+		margin-bottom: 50px;
+}
+
+#social ul li a {
+		color: black;
+
+		
+}
+
+h2 {
+	 padding-bottom: 20px;
+}
+
+p { 
+	font-size: 15px; 
+	font-family: 'Didact Gothic', sans-serif
+}
+Other font for blog
+<!--font-family: 'Didact Gothic', sans-serif;-->
